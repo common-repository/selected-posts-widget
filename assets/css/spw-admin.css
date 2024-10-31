@@ -1,0 +1,36 @@
+.post-suggestion-wrap{
+	position: relative;
+}
+.chef-posts-suggestions {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+    position: absolute;
+    z-index: 999;
+}
+.chef-posts-suggestions > li {
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    margin: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+.chef-posts-suggestions > li:hover{
+	background: #eee;
+}
+.chef-posts-suggestions > li:last-child{
+	border-bottom: none;
+}
+.selected-posts > div {
+    background: #eee url("../move-arrows.png") no-repeat scroll 5px 4px;
+    border-radius: 2px;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 4px 5px 4px 30px;
+}
+
+.selected-posts > div .remove {
+    float: right;
+}
